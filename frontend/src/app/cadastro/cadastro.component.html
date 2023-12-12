@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Cadastro de Leitor</title>
+</head>
+
+<body>
+    <div class="form-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6">
+                    <div class="form-container">
+                        <h3 class="title">Crie sua conta</h3>
+                        <ul class="social-links">
+                            <li><a href=""><i class='fab fa-facebook'></i></a></li>
+                            <li><a href=""><i class='fab fa-instagram'></i></a></li>
+                            <li><a href=""><i class='fab fa-google'></i></a></li>
+                        </ul>
+                        <span class="description">Ou digite seu CPF</span>
+                        <form class="form-horizontal" id="registroForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="nome" placeholder="nome">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="senha" placeholder="senha">
+
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="documento" placeholder="documento">
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="senhaConfirmacao" placeholder="Digite sua senha novamente">
+                            </div>
+
+                            <button class="btn signup" id="botaoCadastrar">Aceite</button>
+                        </form>
+                        <div class="form-cadastro">
+                            <span class="cadastro_conta"><a routerLink="/entrar">Voltar para a página de login</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
